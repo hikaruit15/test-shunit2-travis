@@ -1,7 +1,7 @@
 language: bash
 
 before_script:
-    - install git
+    - brew install git
 
 script:
     - bash equality_test.sh
